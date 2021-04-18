@@ -42,8 +42,9 @@ namespace AddressBook_ADO_DB
 
           /// check.AddressBookSizeByCityANDState();
 
-            check.SortPersonNameByCity();
+          //  check.SortPersonNameByCity();
 
+            check.GetNumberOfPersonsCountByType();
         }
     }
 }
