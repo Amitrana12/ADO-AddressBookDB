@@ -34,8 +34,11 @@ namespace AddressBook_ADO_DB
             check.EditContactUsingPersonName(data);
 */
             ///Deletcontact by First name 
-            data.first_name = "sheetal";
-            check.DeleteContactUsingName(data);
+           /* data.first_name = "sheetal";
+            check.DeleteContactUsingName(data);*/
+
+
+            check.RetrievePersonFromPErticulatCityOrState();
 
         }
     }
