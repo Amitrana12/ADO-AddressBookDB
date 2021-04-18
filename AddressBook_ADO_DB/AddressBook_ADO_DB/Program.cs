@@ -11,16 +11,16 @@ namespace AddressBook_ADO_DB
             check.CheckConnection();
             AddressBookModel data = new AddressBookModel();
             //insert data
-           /* data.first_name = "sumit";
-            data.last_name = "semwal";
-            data.address = "tilwada";
+            /*data.first_name = "saurabh";
+            data.last_name = "Gupta";
+            data.address = "kotdwar";
             data.city = "Ruderpryag";
-            data.state = "Uk";
-            data.zip = 523233;
-            data.phone_number = "9879325434";
-            data.email = "Sumit1234@gmail.com";
+            data.state = "UP";
+            data.zip = 723233;
+            data.phone_number = "9879455434";
+            data.email = "Aman1234@gmail.com";
             data.addressbook_name = "AddressBook1";
-            data.addressbook_type = "Profession";
+            data.addressbook_type = "Family";
             check.Addcontatct(data);*/
 
             /// edit contact
@@ -34,11 +34,13 @@ namespace AddressBook_ADO_DB
             check.EditContactUsingPersonName(data);
 */
             ///Deletcontact by First name 
-           /* data.first_name = "sheetal";
-            check.DeleteContactUsingName(data);*/
+            /* data.first_name = "sheetal";
+             check.DeleteContactUsingName(data);*/
 
 
-            check.RetrievePersonFromPErticulatCityOrState();
+            // check.RetrievePersonFromPErticulatCityOrState();
+
+           check.AddressBookSizeByCityANDState();
 
         }
     }
