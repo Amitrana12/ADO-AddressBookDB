@@ -40,7 +40,9 @@ namespace AddressBook_ADO_DB
 
             // check.RetrievePersonFromPErticulatCityOrState();
 
-           check.AddressBookSizeByCityANDState();
+          /// check.AddressBookSizeByCityANDState();
+
+            check.SortPersonNameByCity();
 
         }
     }
