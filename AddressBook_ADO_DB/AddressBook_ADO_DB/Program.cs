@@ -10,7 +10,7 @@ namespace AddressBook_ADO_DB
             AddressBookrepo check = new AddressBookrepo();
             check.CheckConnection();
             AddressBookModel data = new AddressBookModel();
-
+            //insert data
            /* data.first_name = "sumit";
             data.last_name = "semwal";
             data.address = "tilwada";
@@ -23,9 +23,8 @@ namespace AddressBook_ADO_DB
             data.addressbook_type = "Profession";
             check.Addcontatct(data);*/
 
-
-            
-            data.first_name = "Neha";
+            /// edit contact
+            /*data.first_name = "Neha";
             data.last_name = "Patil";
             data.city = "Pushkar";
             data.state = "Rajasthan";
@@ -33,6 +32,10 @@ namespace AddressBook_ADO_DB
             data.addressbook_name = "AddressBook1";
             data.addressbook_type = "Professional";
             check.EditContactUsingPersonName(data);
+*/
+            ///Deletcontact by First name 
+            data.first_name = "sheetal";
+            check.DeleteContactUsingName(data);
 
         }
     }
