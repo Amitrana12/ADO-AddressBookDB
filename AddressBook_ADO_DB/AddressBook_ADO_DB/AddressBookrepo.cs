@@ -56,7 +56,9 @@ namespace AddressBook_ADO_DB
                     connection.Close();
                     if (result != 0)
                     {
+                        Console.WriteLine("success");
                         return true;
+                        
                     }
                     return false;
 
